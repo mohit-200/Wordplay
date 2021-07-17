@@ -6,6 +6,7 @@ body {
     width: 700pt;
     background-image : url(pic6.jpg);
     background-size : cover;
+    background-repeat : no-repeat;
 }
 
 h2 {
