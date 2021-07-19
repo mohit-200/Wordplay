@@ -1,4 +1,5 @@
 import {infinitive, pastSimple, pastParticiple} from "./data.js";
+let i=0;
 
 let irregularVerbs = infinitive.concat(pastSimple);
 irregularVerbs = irregularVerbs.concat(pastParticiple);
@@ -88,6 +89,10 @@ for (let classification of ["flashcard", "infinitive", "past_simple", "past_part
           element.style.borderColor = "dodgerblue";
           element.style.color = "dodgerblue";
           element.draggable = false;
+          i++;
+          if(i==17){
+            alert('End Game');
+          }
         }
       } else {
         element.style.backgroundColor = "red";
