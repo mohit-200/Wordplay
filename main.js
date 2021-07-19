@@ -90,7 +90,7 @@ for (let classification of ["flashcard", "infinitive", "past_simple", "past_part
           element.style.color = "dodgerblue";
           element.draggable = false;
           i++;
-          if(i==16){
+          if(i==17){
             alert('End Game');
           }
         }
