@@ -91,7 +91,7 @@ for (let classification of ["flashcard", "infinitive", "past_simple", "past_part
           element.draggable = false;
           i++;
           if(i==17){
-            alert('End Game');
+            document.getElementById('gameover').style.display="block";
           }
         }
       } else {
